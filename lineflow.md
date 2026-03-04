@@ -19,7 +19,7 @@ When the market reaches the defined level, LineFlow automatically:
 
 
 
-![LineFlow Execution Dashboard](docs/lineflow-dashboard.png)
+![LineFlow Execution Dashboard](lineflow-dashboard.png)
 
 
 ---
