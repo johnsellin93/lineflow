@@ -6,22 +6,6 @@ The platform monitors price distance in real time and manages the full lifecycle
 LineFlow converts chart geometry into deterministic execution rules.
 
 
-
-Design how LIVE is locked behind subscription
-
-Offer:
-
-• 14-day trial (full feature)
-• €49 first month
-• €99/month ongoing
-
-What I Would Personally Recommend for You
-Option Hybrid:
-Free DEMO version (no expiration)
-€49 first month LIVE
-€99/month ongoing
-
-
 # Why We Built LineFlow
 
 Most discretionary traders spend large amounts of time watching charts, waiting for price to reach predefined levels.
