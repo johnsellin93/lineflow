@@ -20,7 +20,7 @@ When the market reaches the defined level, LineFlow automatically:
 
 
 ![LineFlow Execution Dashboard](lineflow-dashboard.png)
-
+*Rule-level execution monitoring with distance-qualified triggers and lifecycle tracking.*
 
 ---
 # Execution Model
