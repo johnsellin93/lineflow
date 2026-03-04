@@ -5,7 +5,7 @@
 Draw a level. Define your risk.
 LineFlow executes the trade when price reaches the structure.
 
-Instead of watching charts waiting for entries, traders can define structural levels once and allow the execution engine to monitor price continuously.
+Instead of watching charts waiting for entries, traders can define structural levels once and allow the execution engine to do the rest
 
 When the market reaches the defined level, LineFlow automatically:
 
@@ -17,8 +17,12 @@ When the market reaches the defined level, LineFlow automatically:
 > **The trader defines the structure.
 > LineFlow handles the execution.**
 
----
 
+
+![LineFlow Execution Dashboard](docs/lineflow-dashboard.png)
+
+
+---
 # Execution Model
 
 LineFlow converts chart structure into executable rules.
