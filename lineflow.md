@@ -1,10 +1,60 @@
-# Visual Execution Rule Engine for Financial Markets
+# LineFlow
 
-Draw levels on the chart, configure risk parameters, and the system automatically executes trades when price reaches the defined structure.
-The platform monitors price distance in real time and manages the full lifecycle of the position, including stop loss, take profit, and risk governance.
+## Turn Chart Structure Into Automated Execution
+
+Draw a level. Define your risk.
+LineFlow executes the trade when price reaches the structure.
+
+Instead of watching charts waiting for entries, traders can define structural levels once and allow the execution engine to monitor price continuously.
+
+When the market reaches the defined level, LineFlow automatically:
+
+- executes the position
+- places stop loss
+- places take profit
+- manages the lifecycle of the trade
+
+> **The trader defines the structure.
+> LineFlow handles the execution.**
+
+---
+
+# Execution Model
+
+LineFlow converts chart structure into executable rules.
+
+Execution flow:
+
+
+draw structure
+↓
+define risk parameters
+↓
+activate rule
+↓
+distance engine monitors price
+↓
+trigger condition satisfied
+↓
+order execution
+↓
+automated lifecycle management
+
+
+## Visual Execution Rule Engine for Financial Markets
 
 LineFlow converts chart geometry into deterministic execution rules.
 
+The system continuously measures the distance between market price and user-defined structures.
+When predefined proximity conditions are satisfied, the execution engine triggers the trade and manages its lifecycle through embedded risk controls.
+
+This includes:
+
+- deterministic entry execution
+- automatic stop-loss placement
+- take-profit management
+- rule lifecycle supervision
+- multi-asset execution monitoring
 
 # Why We Built LineFlow
 
@@ -12,6 +62,7 @@ Most discretionary traders spend large amounts of time watching charts, waiting 
 
 Typical workflow:
 
+draw level
 wait for price
 enter manually
 place stop loss
