@@ -22,7 +22,7 @@ When the market reaches the defined level, LineFlow automatically:
 ![LineFlow Execution Dashboard](lineflow-dashboard.png)
 *Rule-level execution monitoring with distance-qualified triggers, lifecycle tracking, and live parameter overrides.*
 
-All parameters shown in the dashboard are editable through inline editors.
+All parameters shown in the dashboard are editable through cTrader inline editor or LineFlow UI.
 ---
 # Execution Model
 
