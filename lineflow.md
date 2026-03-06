@@ -27,7 +27,7 @@ All parameters shown in the dashboard are editable through LineFlow UI or inline
 # Execution Model
 
 <p align="center">
-  <img src="simpledemo_small.gif" width="1900">
+  <img src="simpledemo_small.gif" width="3000">
 </p>
 
 
