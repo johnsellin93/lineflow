@@ -26,6 +26,8 @@ All parameters shown in the dashboard are editable through LineFlow UI or inline
 ---
 # Execution Model
 
+![Execution Model](simpledemo_small.gif)
+
 LineFlow converts chart structure into executable rules.
 
 Execution flow:
