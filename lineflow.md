@@ -3,9 +3,9 @@
 ## Turn Chart Structure Into Automated Execution
 
 Draw a level. Define your risk.
-LineFlow executes the trade when price reaches the structure.
+LineFlow executes the rule when price reaches the structure.
 
-Instead of watching charts waiting for entries, traders can define structural levels once and allow the execution engine to do the rest
+Instead of watching charts waiting for entries, traders can define structural levels once and allow the execution engine to monitor price and enforce the rule
 
 When the market reaches the defined level, LineFlow automatically:
 
@@ -20,8 +20,9 @@ When the market reaches the defined level, LineFlow automatically:
 
 
 ![LineFlow Execution Dashboard](lineflow-dashboard.png)
-*Rule-level execution monitoring with distance-qualified triggers and lifecycle tracking.*
+*Rule-level execution monitoring with distance-qualified triggers, lifecycle tracking, and live parameter overrides.*
 
+All parameters shown in the dashboard are editable through inline editors.
 ---
 # Execution Model
 
@@ -43,6 +44,39 @@ trigger condition satisfied
 order execution
 ↓
 automated lifecycle management
+
+
+## ✏️ Live Rule Overrides (Dashboard Editing)
+
+All execution parameters visible in the dashboard can be modified directly from the UI at runtime.
+
+LineFlow treats each row in the execution dashboard as a live rule container.
+Users can adjust risk and lifecycle parameters without recreating the rule.
+
+Editable parameters include:
+
+- Quantity
+- Stop Loss
+- Take Profit
+- Hard Stop (€)
+- Execution state (ON / OFF)
+
+
+Changes apply immediately to the active rule and propagate to the execution engine.
+No rule recreation or chart redraw is required.
+
+This enables traders to:
+
+- tighten or widen risk parameters
+- adjust take-profit targets
+- resize position allocation
+- temporarily suspend execution
+
+
+
+Structures remain fixed.
+Execution parameters remain flexible.
+
 
 
 ## Visual Execution Rule Engine for Financial Markets
@@ -82,7 +116,7 @@ This process requires constant screen time and introduces execution errors such 
 
 LineFlow was created to remove this friction.
 
-Instead of waiting at the screen, traders can define their structural levels once and allow the execution engine to monitor price
+Instead of watching charts waiting for entries, traders define structural levels once and allow the execution engine to monitor price and enforce the rule.
 
 When the market reaches the defined structure, LineFlow automatically:
 
